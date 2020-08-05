@@ -1,13 +1,13 @@
-# skylead-components
+# advisorist-components
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/skylead-components.svg)](https://www.npmjs.com/package/skylead-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/advisorist-components.svg)](https://www.npmjs.com/package/advisorist-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save skylead-components
+npm install --save advisorist-components
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save skylead-components
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'skylead-components'
-import 'skylead-components/dist/index.css'
+import MyComponent from 'advisorist-components'
+import 'advisorist-components/dist/index.css'
 
 class Example extends Component {
   render() {
