@@ -1,0 +1,21 @@
+.all-connections {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-connections.are-sent {
+  background-color: rgba(116, 185, 255, 0.15);
+  border-radius: 50%;
+}
+
+.all-connections.are-discovered {
+  background-color: rgb(220, 253, 225);
+  border-radius: 50%;
+}
+
+.checked-icon-span {
+  margin: auto;
+}

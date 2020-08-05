@@ -1,0 +1,129 @@
+.tag-input-wrapper {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  font-size: 1rem;
+  background: #fff;
+  color: #333;
+  border-radius: 3px;
+}
+
+.input-group {
+  padding: 10px 10px 25px 10px !important;
+}
+
+.tag-input-wrapper button.btn.transparent-btn .text-white {
+  font-size: 1rem;
+}
+
+.tag-input-wrapper * {
+  box-sizing: border-box;
+}
+
+.tag-input-wrapper > * {
+  margin: 0.1875em;
+}
+
+.tag-input-wrapper-all-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.tag-input-wrapper-all-tags.no-tags {
+  display: none;
+}
+
+.tag-input-wrapper-all-tags:not(.no-tags) {
+  margin-bottom: 5px;
+}
+
+textarea.tag-input-wrapper-input {
+  width: 100%;
+  font-size: 1em;
+  line-height: 1;
+  background: transparent;
+  color: #333;
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.tag-input-wrapper-input::placeholder,
+.tag-input-wrapper-input:-moz-placeholder,
+.tag-input-wrapper-input:-ms-input-placeholder,
+.tag-input-wrapper-input::-moz-placeholder,
+.tag-input-wrapper-input::-webkit-input-placeholder {
+  color: #333;
+}
+
+.tag-input-wrapper-input:focus {
+  border: none;
+}
+
+.tag-input-wrapper-tag {
+  margin-right: 10px;
+}
+
+.tag-input-wrapper-tag {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 0.85em;
+  line-height: 1;
+  background: #eaeef2;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-right: 0;
+  cursor: pointer;
+}
+
+.tag-input-wrapper-tag:hover {
+  color: #fff;
+}
+
+.tag-input-wrapper-tag:hover .tag-input-wrapper-tag-remove:before,
+.tag-input-wrapper-tag:hover .tag-input-wrapper-tag-remove:after {
+  background-color: #fff;
+}
+
+.tag-input-wrapper-tag-content {
+  outline: 0;
+  border: none;
+  word-break: break-word;
+  max-width: calc(100% - 20px);
+}
+
+.tag-input-wrapper-tag-remove {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.tag-input-wrapper-tag-remove:before,
+.tag-input-wrapper-tag-remove:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: " ";
+  height: 0.8em;
+  width: 0.1em;
+  background-color: #333;
+}
+
+.tag-input-wrapper-tag-remove:before {
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.tag-input-wrapper-tag-remove:after {
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}

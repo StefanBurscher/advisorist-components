@@ -1,0 +1,38 @@
+.status-label {
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 1rem;
+  display: block;
+  height: 42px;
+  border: 1px solid #fff;
+}
+
+.status-red {
+  background: #b30000;
+}
+
+.status-blue {
+  background: #2957af;
+}
+
+.status-yellow {
+  background: #f5c414;
+}
+
+.status-green {
+  background: #09ab09;
+}
+
+.status-gray {
+  background: #333;
+}
+
+.master-login-status-label {
+  cursor: pointer !important;
+}
+
+.master-login-status-label:hover label {
+  background-color: #74b9ff;
+  cursor: pointer !important;
+}

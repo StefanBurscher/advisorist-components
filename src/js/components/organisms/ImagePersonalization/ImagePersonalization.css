@@ -1,0 +1,48 @@
+.arrow-icons {
+  width: 24px;
+  height: 24px;
+}
+
+.arrow-icons.active {
+  fill: red;
+}
+
+.image-manipulation-position .dropdown-menu {
+  width: 280px;
+}
+
+.image-manipulation-action button.btn:hover {
+  color: #74b9ff !important;
+}
+.image-manipulation-delete:hover {
+  color: rgb(238, 5, 53);
+}
+.image-manipulation-action button.btn {
+  transition: 0s;
+}
+
+.twitter-picker {
+  box-shadow: none !important;
+}
+
+.twitter-picker span div {
+  border: 1px solid;
+}
+
+.twitter-picker div input {
+  height: 30px !important;
+}
+
+button.btn.image-personalization-buttons {
+  background: #006eff26 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  color: #006eff;
+  box-sizing: border-box;
+  border: 1px solid #006eff26;
+}
+
+button.btn.image-personalization-buttons:hover {
+  border-color: #006eff;
+  background: #006eff26;
+  color: #006eff;
+}

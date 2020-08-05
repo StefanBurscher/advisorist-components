@@ -1,0 +1,18 @@
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 6px dashed;
+  border-top: 6px solid\9;
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+
+.caretDown {
+  content: "";
+  border-top: 0;
+  border-bottom: 6px dashed;
+  border-bottom: 6px solid\9;
+}

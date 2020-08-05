@@ -1,0 +1,16 @@
+.settings-card-wrapper {
+  height: 100%;
+}
+
+.settings-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.settings-card-icons {
+  width: 22px !important;
+  height: 22px !important;
+  padding: 10px !important;
+}

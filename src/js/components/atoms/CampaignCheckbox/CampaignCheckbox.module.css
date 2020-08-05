@@ -1,0 +1,17 @@
+.campaign-checkbox-wrapper {
+}
+
+.accordion-button {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.account-health-subtext {
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+  font-style: italic;
+  margin-top: 16px;
+  display: block;
+}

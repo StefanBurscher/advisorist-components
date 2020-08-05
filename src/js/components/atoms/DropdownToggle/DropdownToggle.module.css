@@ -1,0 +1,10 @@
+.dropdown-select-toggle {
+  cursor: pointer;
+  border: 2px solid transparent;
+  height: 49px;
+  padding-right: 25px;
+}
+
+.dropdown-select-toggle:hover {
+  border: 2px solid #74b9ff;
+}

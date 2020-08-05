@@ -1,0 +1,81 @@
+button.btn {
+  box-sizing: border-box;
+  transition: initial;
+  display: flex;
+  align-items: center;
+}
+
+button.btn .button-text {
+  color: #fff;
+  font-weight: 600;
+}
+
+button.btn.dark-btn {
+  background-color: #575967;
+}
+
+button.btn.dark-btn:hover {
+  background-color: rgb(27, 29, 72);
+}
+
+button.btn.transparent-btn:hover {
+  background-color: transparent;
+  opacity: 0.6;
+}
+
+button.btn.border-btn {
+  border: 2px solid;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button.btn {
+  border-radius: 50px;
+  color: white;
+  padding: 10px 26px;
+  transition: 0.3s;
+}
+
+button.btn:hover {
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.8);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.btn.btn-danger {
+  background-color: #f02750 !important;
+}
+
+button.btn.btn-danger:hover {
+  background-color: #bf2534 !important;
+}
+
+button.btn.image-personalization-btn {
+  background-color: #e2edff;
+}
+
+button.btn.image-personalization-btn .button-text {
+  color: #045ed5;
+}
+
+button.btn.small-btn {
+  padding: 5px 10px;
+}
+
+button.btn.small-btn .button-text {
+  font-size: 14px;
+}
+
+button.btn.big-btn {
+  padding: 10px 30px;
+}
+
+button.btn.big-btn .button-text {
+  font-size: 22px;
+}

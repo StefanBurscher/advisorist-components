@@ -1,0 +1,18 @@
+.settings-footer-wrapper {
+}
+
+.account-health-text {
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.account-health-subtext {
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+  font-style: italic;
+  margin-top: 16px;
+  display: block;
+}

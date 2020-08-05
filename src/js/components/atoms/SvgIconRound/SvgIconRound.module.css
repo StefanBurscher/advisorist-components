@@ -1,0 +1,9 @@
+.round-icon {
+    border-radius: 50%;
+}
+
+.icon-size {
+    padding: 8px;
+    height: 34px;
+    width: 34px;
+}

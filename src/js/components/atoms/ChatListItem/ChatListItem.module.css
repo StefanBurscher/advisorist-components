@@ -1,0 +1,40 @@
+.chat-list-item-wrapper {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #e1e7f1;
+}
+
+.chat-list-item-profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.chat-list-item-name {
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-list-item-message {
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-list-item-text {
+  margin-left: 10px;
+  width: calc(100% - 50px);
+}
+
+.chat-list-item-labels {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.chat-list-item-no-seen {
+  font-weight: 600;
+}

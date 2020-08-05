@@ -1,0 +1,39 @@
+.account-status-item-wrapper {
+  padding: 8px 18px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 30px;
+  color: #1b1d48;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+  width: 100%;
+  z-index: 101;
+}
+
+.master-login-icon {
+  width: 22px;
+  height: 22px;
+  fill: #000;
+  margin-left: 10px;
+}
+
+.account-status-item-wrapper:hover {
+  color: #fff;
+}
+
+.account-status-item-wrapper:hover .master-login-icon {
+  fill: #fff;
+}
+
+.account-status-item-wrapper.account-status-item-active {
+  background-color: #74b9ff;
+  color: white;
+}
+
+.account-status-item-wrapper.account-status-item-active .master-login-icon {
+  fill: #fff;
+}

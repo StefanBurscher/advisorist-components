@@ -1,0 +1,134 @@
+.chat-message-wrapper-all {
+  position: relative;
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+.chat-message-wrapper {
+  padding: 20px 0;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  flex-direction: row-reverse;
+  .chat-message-text {
+    border-radius: 25px 25px 0 25px;
+    margin: 0 50px;
+    padding: 22px 26px;
+    max-width: 75%;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: pre-line;
+    word-break: break-word;
+  }
+}
+
+.chat-message-wrapper-receiver {
+  flex-direction: row;
+  .chat-message-text {
+    border-radius: 25px 25px 25px 0px;
+  }
+}
+
+.chat-message-image {
+  img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.message-end,
+.attachment-message {
+  color: #fff;
+}
+
+.chat-message-status {
+  margin: 0 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+}
+
+.chat-message-status-receiver {
+  right: unset;
+}
+
+img.attachment-image,
+span.attachment-message-icon-chat {
+  position: relative;
+  transform: none;
+  top: 0;
+  left: 0;
+  margin: 0 10px;
+  border-radius: 10%;
+}
+
+.attachment-message {
+  border: 2px solid;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.message-start .attachment-message {
+  border-radius: 25px 25px 25px 0;
+  border-color: rgb(35, 43, 102);
+}
+.theme-1 .message-start .attachment-message .attachment-message-icon {
+  fill: rgb(35, 43, 102);
+}
+.theme-2 .message-start .attachment-message .attachment-message-icon {
+  fill: #fff;
+}
+
+.message-end .attachment-message {
+  border-radius: 25px 25px 0 25px;
+  border-color: #fff;
+}
+.message-end .attachment-message .attachment-message-icon {
+  fill: #fff;
+}
+
+.theme-1 .message-start .attachment-message:hover {
+  color: #000;
+  background-color: rgb(35, 43, 102);
+  color: #fff;
+}
+.theme-1 .message-start .attachment-message:hover .attachment-message-icon {
+  fill: #fff;
+}
+.theme-2 .message-start .attachment-message:hover {
+  color: #536df2 !important;
+  background-color: rgb(35, 43, 102);
+}
+.theme-2 .message-start .attachment-message:hover .attachment-message-icon {
+  fill: #536df2;
+}
+
+.theme-1 .message-end .attachment-message:hover {
+  color: #74b9ff !important;
+  background-color: #fff;
+}
+.theme-1 .message-end .attachment-message:hover .attachment-message-icon {
+  fill: #74b9ff;
+}
+
+.theme-2 .message-end .attachment-message:hover {
+  color: #1b1d48 !important;
+  background-color: #fff;
+}
+.theme-2 .message-end .attachment-message:hover .attachment-message-icon {
+  fill: #1b1d48;
+}
+
+.chat-box .message span.attachment-message-icon-chat {
+  margin: 0;
+}

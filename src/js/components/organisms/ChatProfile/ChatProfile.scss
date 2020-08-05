@@ -1,0 +1,64 @@
+.chat-profile-wrapper {
+  margin-top: 10px;
+  height: calc(100% - 10px);
+}
+
+.chat-profile-data {
+  border-bottom: 1px solid #e1e7f1;
+  word-break: break-all;
+  div:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.chat-profile-image {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 50%;
+  margin: 10px auto 0 auto;
+}
+
+.chat-profile-data {
+  padding: 15px 10px;
+}
+
+.chat-profile-data span {
+  text-align: center;
+}
+
+.chat-profile-data-fullname {
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.chat-profile-data-occupation {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.chat-profile-data-company {
+  font-size: 14px;
+}
+
+.chat-profile-notes {
+  padding: 20px;
+}
+
+.chat-profile-icon-class {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+
+.chat-notes-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.chat-notes-textarea {
+  margin-bottom: 20px !important;
+}
